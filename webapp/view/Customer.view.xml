@@ -1,0 +1,25 @@
+<mvc:View controllerName="com.arv.cust.custapp.controller.Customer"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l= "sap.ui.layout">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <l:Grid id="custIdG"  defaultSpan="XL3 L6 M6 S12">
+            <l:content>
+                <Label id="custIdL" text="Customer Id"></Label>
+                <Input id="custIdI"></Input>
+                <Label id="custNameL" text="Customer Name"></Label>
+                <Input id="custNameI"></Input>
+                <Label id="custCityL" text="City"></Label>
+                <Input id="custCityI"></Input>
+                <Label id="custCountryL" text="Country"></Label>
+                <Input id="custCountryI"></Input>
+                <Label id="custEmailL" text="Email"></Label>
+                <Input id="custEmailI"></Input>
+                <Label id="custPhoneL" text="Phone"></Label>
+                <Input id="custPhoneI"></Input>
+            </l:content>
+        </l:Grid>
+        </content>
+    </Page>
+</mvc:View>
