@@ -4,22 +4,80 @@
     xmlns:l= "sap.ui.layout">
     <Page id="page" title="{i18n>title}">
         <content>
-        <l:Grid id="custIdG"  defaultSpan="XL3 L6 M6 S12">
+        <Panel id="pnl1" headerText="Customer Details">
+        <l:Grid id="custIdG"  vSpacing="0">
             <l:content>
-                <Label id="custIdL" text="Customer Id"></Label>
-                <Input id="custIdI"></Input>
-                <Label id="custNameL" text="Customer Name"></Label>
-                <Input id="custNameI"></Input>
-                <Label id="custCityL" text="City"></Label>
-                <Input id="custCityI"></Input>
-                <Label id="custCountryL" text="Country"></Label>
-                <Input id="custCountryI"></Input>
-                <Label id="custEmailL" text="Email"></Label>
-                <Input id="custEmailI"></Input>
-                <Label id="custPhoneL" text="Phone"></Label>
-                <Input id="custPhoneI"></Input>
+                <Label id="custIdL" text="Customer Id" class="sapUiTinyMarginTop">
+                <layoutData>
+                    <l:GridData id = "gdata1" span="L3 M3"></l:GridData>
+                </layoutData>
+                </Label>
+                <Input id="custIdI">
+                <layoutData>
+                    <l:GridData id = "gdata2" span="L9 M9"></l:GridData>
+                </layoutData>
+               </Input>
+                <Label id="custNameL" text="Customer Name" class="sapUiTinyMarginTop">
+                <layoutData>
+                    <l:GridData id = "gdata3" span="L3 M3"></l:GridData>
+                </layoutData>
+                </Label>
+                <Input id="custNameI">
+                   <layoutData>
+                    <l:GridData id = "gdata4" span="L9 M9"></l:GridData>
+                </layoutData>
+                </Input>
+                <Label id="custCityL" text="City" class="sapUiTinyMarginTop">
+                   <layoutData>
+                    <l:GridData id = "gdata5" span="L3 M3"></l:GridData>
+                </layoutData>
+             
+                </Label>
+                <Input id="custCityI">
+                   <layoutData>
+                    <l:GridData id = "gdata6" span="L3 M3"></l:GridData>
+                </layoutData>
+             
+                </Input>
+                <Label id="custCountryL" text="Country" class="sapUiTinyMarginTop">
+                   <layoutData>
+                    <l:GridData id = "gdata7" span="L3 M3"></l:GridData>
+                </layoutData>
+             
+                </Label>
+                <Input id="custCountryI">
+                   <layoutData>
+                    <l:GridData id = "gdata8" span="L3 M3"></l:GridData>
+                </layoutData>
+             
+                </Input>
+                <Label id="custEmailL" text="Email" class="sapUiTinyMarginTop">
+                   <layoutData>
+                    <l:GridData id = "gdata9" span="L3 M3"></l:GridData>
+                </layoutData>
+             
+                </Label>
+                <Input id="custEmailI">
+                   <layoutData>
+                    <l:GridData id = "gdata10" span="L3 M3"></l:GridData>
+                </layoutData>
+             
+                </Input>
+                <Label id="custPhoneL" text="Phone" class ="sapUiTinyMarginTop">
+                   <layoutData>
+                    <l:GridData id = "gdata11" span="L3 M3"></l:GridData>
+                </layoutData>
+             
+                </Label>
+                <Input id="custPhoneI">
+                   <layoutData>
+                    <l:GridData id = "gdata12" span="L3 M3"></l:GridData>
+                </layoutData>
+             
+                </Input>
             </l:content>
         </l:Grid>
+        </Panel>
         </content>
     </Page>
 </mvc:View>
